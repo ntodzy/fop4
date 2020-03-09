@@ -1,0 +1,47 @@
+<br></br>
+<center>
+ <h1>Sign Up</h1>
+    <form action="" method="post" novalidate>
+        {{ form.hidden_tag() }}
+        <p>
+            {{ form.first.label }}<br>
+            {{ form.first(size=32) }}
+        </p>
+        <p>
+            {{ form.last.label }}<br>
+            {{ form.last(size=32) }}
+        </p>
+        <p>
+           {{ form.email.label }}<br>
+            {{ form.email(size=32) }}
+        </p>
+        <p>
+          {{form.computer.label}}<br>
+          {{ form.computer }}
+
+        </p>
+        <p>
+          {{form.sr.label}}<br>
+          {{ form.sr() }}
+
+        </p>
+        <p>
+          {{ form.day_hours.label}}<br>
+          {{ form.day_hours() }}
+        </p>
+
+        <p>
+          {{ form.week_hours.label}}<br>
+          {{ form.week_hours() }}
+        </p>
+
+        <p>
+          {{ form.activities.label}}<br>
+          {{ form.activities() }}
+        </p>
+
+
+
+        <p>{{ form.submit() }}</p>
+    </form>
+</center>

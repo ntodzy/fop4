@@ -1,0 +1,9 @@
+Dear {{ application._metadata.first }} {{ application._metadata.last}},
+
+Unfortunatly you were not accepted into the Overwatch ESports Club because of these reasons
+
+{{ data.reasons }}
+
+Regards,
+
+The Appleton Overwatch ESports Club

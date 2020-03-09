@@ -1,0 +1,9 @@
+Dear {{ application._metadata.first }} {{ application._metadata.last}},
+
+Congratulations! You have been accepted into the Overwatch ESports Club!
+
+{{ data.reasons }}
+
+Regards,
+
+The Appleton Overwatch ESports Club
